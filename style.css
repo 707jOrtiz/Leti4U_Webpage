@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    background-color: rgb(255, 241, 244);
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -28,35 +32,40 @@ a {
 
 #cover {
     height: auto;
-    width: 80%;
-    margin: 4% 10%;
+    width: 90%;
+    margin: 4% 5%;
 }
 
 /* Middle Section */
 
 #beforeAfter {
     height: auto;
-    width: 40%;
-    margin-left: 10%;
+    width: 45%;
+    margin-left: 5%;
 }
 
 .columns {
     display: flex;
     width: 100%;
+    background-color: skyblue;
 }
 
-.container {
-    background-color: rgb(255, 241, 244);
-    width: 40%;
-    text-align: center;
+/* Saving background color as similar color to cover picture 
+background-color: rgb(255, 241, 244); */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 35px;
 }
 
 #squad {
     height: auto;
-    width: 80%;
-    margin: 4% 10%;
+    width: 90%;
+    margin: 0 5%;
 }
 
 #contact {
+    padding: 2em;
     text-align: center;
 }
